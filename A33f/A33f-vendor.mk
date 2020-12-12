@@ -29,32 +29,6 @@ vendor/oppo/A33f/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendo
 vendor/oppo/A33f/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
 
 PRODUCT_COPY_FILES += \
-vendor/oppo/A33/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
-vendor/oppo/A33/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-vendor/oppo/A33/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
-vendor/oppo/A33/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
-vendor/oppo/A33/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-vendor/oppo/A33/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
-vendor/oppo/A33/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc \
-vendor/oppo/A33/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
-vendor/oppo/A33/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-vendor/oppo/A33/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-vendor/oppo/A33/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-vendor/oppo/A33/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \    
-vendor/oppo/A33/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
-vendor/oppo/A33/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
 vendor/oppo/A33f/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
 vendor/oppo/A33f/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
 vendor/oppo/A33f/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
@@ -462,37 +436,11 @@ vendor/oppo/A33f/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:sy
 vendor/oppo/A33f/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so \
 vendor/oppo/A33f/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
 
-# Thermal Engine and some files
+# Thermal Engine
 PRODUCT_COPY_FILES += \
 vendor/oppo/A33f/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-vendor/oppo/A33/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
-vendor/oppo/A33/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
-vendor/oppo/A33/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
-vendor/oppo/A33/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
-vendor/oppo/A33/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-vendor/oppo/A33/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-vendor/oppo/A33/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
-vendor/oppo/A33/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-vendor/oppo/A33/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
-vendor/oppo/A33/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
-vendor/oppo/A33/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
-vendor/oppo/A33/proprietary/vendor/bin/radish:system/vendor/bin/radish \
-vendor/oppo/A33/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
-vendor/oppo/A33/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-vendor/oppo/A33/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
-vendor/oppo/A33/proprietary/vendor/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
-vendor/oppo/A33/proprietary/vendor/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
 vendor/oppo/A33f/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 vendor/oppo/A33f/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
-vendor/oppo/A33/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
-vendor/oppo/A33/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
-vendor/oppo/A33/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-vendor/oppo/A33/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-vendor/oppo/A33/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
-vendor/oppo/A33/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-vendor/oppo/A33/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
-vendor/oppo/A33/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
-
 
 # Sensor hals
 PRODUCT_COPY_FILES += \
