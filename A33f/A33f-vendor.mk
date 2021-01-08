@@ -21,11 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A33f/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/oppo/A33f/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/oppo/A33f/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/oppo/A33f/proprietary/lib/sensors.A33f.so:system/lib/sensors.A33f.so \
+    vendor/oppo/A33f/proprietary/lib/sensors.msm8916.so:system/lib/sensors.msm8916.so \
     vendor/oppo/A33f/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/oppo/A33f/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/oppo/A33f/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/oppo/A33f/proprietary/vendor/app/ims/ims.apk:system/vendor/app/ims/ims.apk \
     vendor/oppo/A33f/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/oppo/A33f/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/oppo/A33f/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
